@@ -16,6 +16,14 @@
 	
 	<dependencies>
 	
+	<!-- 암호 -->
+		<dependency>
+    		<groupId>commons-codec</groupId>
+    		<artifactId>commons-codec</artifactId>
+    		<version>1.9</version>
+		</dependency>
+	
+	
 	<!-- gson -->
 		<dependency>
     		<groupId>com.google.code.gson</groupId>
