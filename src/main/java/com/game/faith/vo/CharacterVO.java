@@ -1,4 +1,4 @@
-package game.faith.vo;
+package com.game.faith.vo;
 
 public class CharacterVO {
 

@@ -1,4 +1,4 @@
-package game.faith.service;
+package com.game.faith.service;
 
 public interface LogicService {
 	
