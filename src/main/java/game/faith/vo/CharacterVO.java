@@ -2,46 +2,48 @@ package game.faith.vo;
 
 public class CharacterVO {
 
-	private int Ap;
-	private int Cash;
-	private int Charisma;
-	private int Charm;
-	private int Confidence;
+	private int ap;
+	private int cash;
+	private int charisma;
+	private int charm;
+	private int confidence;
 	public int getAp() {
-		return Ap;
+		return ap;
 	}
 	public void setAp(int ap) {
-		Ap = ap;
+		this.ap = ap;
 	}
 	public int getCash() {
-		return Cash;
+		return cash;
 	}
 	public void setCash(int cash) {
-		Cash = cash;
+		this.cash = cash;
 	}
 	public int getCharisma() {
-		return Charisma;
+		return charisma;
 	}
 	public void setCharisma(int charisma) {
-		Charisma = charisma;
+		this.charisma = charisma;
 	}
 	public int getCharm() {
-		return Charm;
+		return charm;
 	}
 	public void setCharm(int charm) {
-		Charm = charm;
+		this.charm = charm;
 	}
 	public int getConfidence() {
-		return Confidence;
+		return confidence;
 	}
 	public void setConfidence(int confidence) {
-		Confidence = confidence;
+		this.confidence = confidence;
 	}
+	
 	@Override
 	public String toString() {
-		return "FaithVO [Ap=" + Ap + ", Cash=" + Cash + ", Charisma=" + Charisma + ", Charm=" + Charm + ", Confidence="
-				+ Confidence + "]";
+		return "CharacterVO [ap=" + ap + ", cash=" + cash + ", charisma=" + charisma + ", charm=" + charm
+				+ ", confidence=" + confidence + "]";
 	}
+	
 	
 	
 	
