@@ -1,4 +1,4 @@
-package com.game.faith;
+package com.game.faith.dao;
 
 import java.io.UnsupportedEncodingException;
 import java.security.Key;

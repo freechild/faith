@@ -1,8 +1,8 @@
 package com.game.faith.vo;
 
-import org.springframework.beans.factory.annotation.Autowired;
 
-public class Total_management{
+
+public class Total_management {
 
 	private int turn;
 	
@@ -14,10 +14,10 @@ public class Total_management{
 		this.turn = turn;
 	}
 
-	@Autowired
-	private CharacterVO characterVO;
-	@Autowired
-	private ReligionVO religionVO;
+	
+	private CharacterVO characterVO =new CharacterVO();
+	
+	private ReligionVO religionVO = new ReligionVO();
 	public CharacterVO getCharacterVO() {
 		return characterVO;
 	}
