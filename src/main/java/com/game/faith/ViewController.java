@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.game.faith.vo.Total_management;
 
 @Controller
-public class HomeController {
+public class ViewController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {
