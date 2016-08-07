@@ -4,7 +4,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class Total_management{
 
+	private int turn;
 	
+	
+	public int getTurn() {
+		return turn;
+	}
+	public void setTurn(int turn) {
+		this.turn = turn;
+	}
+
 	@Autowired
 	private CharacterVO characterVO;
 	@Autowired
